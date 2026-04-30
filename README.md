@@ -1,2 +1,3 @@
-# RM-
+# RMshoot
 有一个基于ros的自瞄模块和一个不基于ros的射击模组
+CH341SER_LINUX以及daheng_camera_driver为大恒摄像头做驱动
