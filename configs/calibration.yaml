@@ -1,0 +1,22 @@
+pattern_cols: 10
+pattern_rows: 7
+center_distance_mm: 25
+
+R_gimbal2imubody: [1, 0, 0, 0, 1, 0,  0, 0, 1]
+
+camera_name: "daheng"
+exposure_ms: 16.8
+gain: 16.9
+vid_pid: "2ba2:4d55"
+
+#####-----cboard参数-----#####
+quaternion_canid: 0x01
+bullet_speed_canid: 0x110
+send_canid: 0xff
+can_interface: "can0"
+
+#####-----gimbal串口/CAN参数-----#####
+com_port: "/dev/gimbal"
+gimbal_canid: 0x200
+camera_matrix: [2337.4608056883767, 0, 767.93103593576132, 0, 2335.1147721259922, 480.90102311938421, 0, 0, 1]
+distort_coeffs: [-0.096667593887259984, 0.37023676653757648, -0.0079045033576861812, 0.001565923170865927, 0]

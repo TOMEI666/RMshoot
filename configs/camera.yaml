@@ -1,0 +1,25 @@
+camera_name: "daheng"
+exposure_ms: 10.0
+gain: 1.0
+vid_pid: "2ba2:4d55"  # 替换为实际的大恒相机VID:PID
+
+
+# camera_name: "mindvision"
+# exposure_ms: 2
+# gamma: 0.5
+# vid_pid: "f622:d13a"
+
+# camera_name: "hikrobot"
+# exposure_ms: 3
+# gain: 10.0
+# vid_pid: "2bdf:0001"
+
+#####-----cboard参数-----#####
+quaternion_canid: 0x01
+bullet_speed_canid: 0x110
+send_canid: 0xff
+can_interface: "can0"
+
+#####-----gimbal串口/CAN参数-----#####
+com_port: "/dev/gimbal"
+gimbal_canid: 0x200
