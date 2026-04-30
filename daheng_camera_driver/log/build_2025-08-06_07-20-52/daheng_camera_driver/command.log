@@ -1,0 +1,2 @@
+Invoking command in '/home/yxb/daheng_camera_driver/build/daheng_camera_driver': /usr/bin/cmake /home/yxb/daheng_camera_driver -DCMAKE_INSTALL_PREFIX=/home/yxb/daheng_camera_driver/install/daheng_camera_driver
+Invoked command in '/home/yxb/daheng_camera_driver/build/daheng_camera_driver' returned '1': /usr/bin/cmake /home/yxb/daheng_camera_driver -DCMAKE_INSTALL_PREFIX=/home/yxb/daheng_camera_driver/install/daheng_camera_driver
