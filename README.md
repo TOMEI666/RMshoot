@@ -2,7 +2,7 @@
 
 订阅相机参数及图像流进行装甲板的识别并解算三维位置，输出识别到的装甲板在输入frame下的三维位置 (一般是以相机光心为原点的相机坐标系)
 
-## fyt::ArmorDetectorNode
+## ArmorDetectorNode
 
 装甲板识别节点
 
